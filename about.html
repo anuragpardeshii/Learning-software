@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechNewbies</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Reddit+Mono:wght@200..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!--header section starts-->
+    <header class="header">
+        <section class="flex">
+
+            <a href="home.html" class="logo">TechNewbies</a>
+            
+            <form action="" method="post" class="search-form">
+                <input type="text" name="search_box" placeholder="search courses..."
+                required maxlength="100">
+                <button type="submit" class="fas fa-search" name="search_box"></button>
+            </form>
+
+            <div class="icons">
+                <div id="menu-btn" class="fas fa-bars"></div>
+                <div id="search-btn" class='fas fa-search'></div>
+                <div id="user-btn" class="fas fa-user"></div>
+                <div id="toggle-btn" class="fas fa-sun"></div>
+            </div>
+
+            <div class="profile">
+                <img src="./images/profilepic01.png" alt="profile pic" height="100px">
+                <h3>Anurag Pardeshi</h3>
+                <span>student</span>
+                <a href="profile.html" class="btn">view profile</a>
+                <div class="flex-btn">
+                    <a href="login.html" class="option-btn">login</a>
+                    <a href="register.html" class="option-btn">register</a>
+                </div>
+            </div>
+        </section>
+    </header>
+    <!--header section ends-->
+    <!--side-bar section ends-->
+    <div class="side-bar">
+        <div class="close-side-bar">
+            <i class="fas fa-times"></i>
+        </div>
+        <div class="profile">
+            <img src="./images/profilepic01.png" alt="profile pic" height="100px">
+            <h3>Anurag Pardeshi</h3>
+            <span>student</span>
+            <a href="profile.html" class="btn">view profile</a>
+        </div>
+        <div class="nav-bar">
+                <ul>
+                  <li>
+                    <a href="home.html"><i class="fas fa-home"></i><span> Home</span></a>
+                  </li>
+                  <li>
+                    <a href="about.html"><i class="fas fa-question"></i><span>&nbsp;  About us</span></a>
+                  </li>
+                  <li>
+                    <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>Courses</span></a>
+                  </li>
+                  <li>
+                    <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>Teachers</span></a>
+                  </li>
+                  <li>
+                    <a href="contact.html"><i class="fas fa-headset"></i><span> Contact us</span></a>
+                  </li>
+                </ul>
+        </div>
+    </div>
+    <!--side-bar section ends-->
+    <!--about section starts-->
+    <section class="about">    
+            <a href="home.html" class="back-btn" style="justify-content: end;">back</a>
+        <div class="row">
+            <div class="image">
+                <img src="./images/aboutUsimg.png" alt="">
+            </div>
+            <div class="content">
+                <h3>WHY CHOOSE US?</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione veritatis non odio est at obcaecati!</p>
+            <a href="courses.html"class="inline-btn">Our Courses</a>
+            </div>
+        </div>
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <div>
+                    <h3>+1k</h3>
+                    <span>online courses</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-user-graduate"></i>
+                <div>
+                    <h3>+25k</h3>
+                    <span>Brilliant Students</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-chalkboard-user"></i>
+                <div>
+                    <h3>+5k</h3>
+                    <span>Expert Teachers</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-briefcase"></i>
+                <div>
+                    <h3>100%</h3>
+                    <span>Job PLacement</span>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--about section ends-->
+<!--review section starts-->
+<section class="reviews">
+
+    <h1 class="heading">Student's reviews</h1>
+    <div class="box-container">
+
+        <div class="box">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, iusto.</p>
+        
+            <div class="user">
+                <img src="./images/profilepic01.png" alt="">
+                <div>
+                <h3>Yaghyapran Chouksey</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, iusto.</p>
+        
+            <div class="user">
+                <img src="./images/profilepic01.png" alt="">
+                <div>
+                <h3>Vishwajeet Singh</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, iusto.</p>
+        
+            <div class="user">
+                <img src="./images/profilepic01.png" alt="">
+                <div>
+                <h3>Paramveer Singh</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, iusto.</p>
+        
+            <div class="user">
+                <img src="./images/profilepic02.png" alt="">
+                <div>
+                <h3>Monu Parmar</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, iusto.</p>
+        
+            <div class="user">
+                <img src="./images/profilepic01.png" alt="">
+                <div>
+                <h3>Paramveer Singh</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, iusto.</p>
+        
+            <div class="user">
+                <img src="./images/profilepic01.png" alt="">
+                <div>
+                <h3>Sarvesh Singh Rawat</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, iusto.</p>
+        
+            <div class="user">
+                <img src="./images/profilepic02.png" alt="">
+                <div>
+                <h3>Shriya</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, iusto.</p>
+        
+            <div class="user">
+                <img src="./images/profilepic02.png" alt="">
+                <div>
+                <h3>Amisha</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!--review section ends-->
+
+
+
+
+
+
+
+
+
+
+<script src="./script.js"></script>
+</body>
+</html>
+
+
+
+
+    
