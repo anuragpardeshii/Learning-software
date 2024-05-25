@@ -602,7 +602,6 @@ section {
 
 
 .playlist .row .col .save-list button:hover span{
-<<<<<<< HEAD
     color: var(--white); 
 }
 
@@ -615,20 +614,17 @@ section {
 }
 
 .playlist .row .col .thumb img{
-=======
     background-color: var(--white); 
 }
 
 
 .playlist .row .col .thumb{
->>>>>>> 01009ceeac4257b3d5ea069c0e90402c66fc5012
     width:100%;
     height: 30rem;
     border-radius: .5rem;
     object-fit: cover;
 }
 
-<<<<<<< HEAD
 .playlist .row .col .thumb span{
     position: absolute;
     top: 1rem; left: 1rem;
@@ -639,9 +635,6 @@ section {
     background-color: rgba(0,0,0,.3);
 }
 
-
-=======
->>>>>>> 01009ceeac4257b3d5ea069c0e90402c66fc5012
 .playlist .row .col .tutor{
     display: flex;
     align-items: center;
@@ -667,11 +660,9 @@ section {
 }
 
 .playlist .row .col .details{
-<<<<<<< HEAD
     padding: 1.5rem;
-=======
+
     padding: 2rem;
->>>>>>> 01009ceeac4257b3d5ea069c0e90402c66fc5012
 }
 
 .playlist .row .col .details h3{
@@ -686,25 +677,16 @@ section {
     font-size: 1.7rem;
 }
 
-<<<<<<< HEAD
 .playlist .row .col .details .date{
-=======
-.playlist .row .col .date{
->>>>>>> 01009ceeac4257b3d5ea069c0e90402c66fc5012
     font-size: 2rem;
     padding-top: .5rem;
 }
 
-<<<<<<< HEAD
 .playlist .row .col .details .date i{
-=======
-.playlist .row .col .date i{
->>>>>>> 01009ceeac4257b3d5ea069c0e90402c66fc5012
     color: var(--main-color);
     margin-right: 1rem;
 }
 
-<<<<<<< HEAD
 .playlist .row .col .details .date span{
     color: var(--light-bg);
 }
@@ -761,13 +743,10 @@ section {
     font-size: 1.8rem;
     transition: .2s linear;
 }
-=======
 .playlist .row .col .date span{
     color: var(--light-color);
 }
 
-
->>>>>>> 01009ceeac4257b3d5ea069c0e90402c66fc5012
 
 
 
@@ -843,13 +822,10 @@ section {
     .about .row .image img{
         height: auto;
     }
-<<<<<<< HEAD
 
     .playlist .row .col .thumb{
         height: 20rem;
     }
-=======
->>>>>>> 01009ceeac4257b3d5ea069c0e90402c66fc5012
 }
 
 
