@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Playlist</title>
+    <title>TechNewbies</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <!--header section starts-->
     <header class="header">
         <section class="flex">
 
@@ -44,7 +45,9 @@
             </div>
         </section>
     </header>
-    <div class="side-bar">
+    <!--header section ends-->
+    <!--side-bar section ends-->
+    <section class="side-bar">
         <div class="close-side-bar">
             <i class="fas fa-times"></i>
         </div>
@@ -55,25 +58,68 @@
             <a href="profile.html" class="btn">view profile</a>
         </div>
         <div class="nav-bar">
-                <ul>
-                  <li>
-                    <a href="home.html"><i class="fas fa-home"></i><span> Home</span></a>
-                  </li>
-                  <li>
-                    <a href="about.html"><i class="fas fa-question"></i><span>&nbsp;  About us</span></a>
-                  </li>
-                  <li>
-                    <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>Courses</span></a>
-                  </li>
-                  <li>
-                    <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>Teachers</span></a>
-                  </li>
-                  <li>
-                    <a href="contact.html"><i class="fas fa-headset"></i><span> Contact us</span></a>
-                  </li>
-                </ul>
+                <a href="home.html"><i class="fas fa-home"></i><span> Home</span></a>
+                <a href="about.html"><i class="fas fa-question"></i><span>&nbsp;  About us</span></a>
+                <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>Courses</span></a>
+                <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>Teachers</span></a>
+                <a href="contact.html"><i class="fas fa-headset"></i><span> Contact us</span></a>
+        </div>
+    </section>
+    <!--side-bar section ends-->
+    <!--playlist section starts-->
+    <div class="playlist">
+        <h1 class="heading">PLaylist Details</h1>
+        <div class="row">
+            <div class="columns">
+                <form action="" method="post" class="save-list">
+                    <button type="submit" name="save_list"><i class="far fa-bookmark"></i><span>save playlist</span></button>
+                </form>
+                <div class="thumb">
+                    <span>6 videos</span>
+                    <img src="./images/Reactthumbnail.webp" alt="" style="height: 30rem;">
+                </div>
+            </div>
+            
+            <div class="col">
+                <div class="tutor">
+                    <img src="./images/teacherpic03.png" alt="">
+                    <div>
+                        <h3>Teacher name1</h3>
+                        <span>developer</span>
+                    </div>
+                </div>
+                <div class="details">
+                    <h3>Complete HTML tutorial</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt natus magnam commodi incidunt ipsum exercitationem?</p>
+                    <div class="date"><i class="fa fa-calendar"></i><span>21-25-2024</span></div>
+                </div>
+            </div>
         </div>
     </div>
+    <!--playlist section ends-->
+    <!--video container section starts-->
+    <div class="video-container">
+        <div class="heading">
+            <div class="box-container">
+                <a href="watch-video.html" class="box">
+                    <i class="fas fa-play"></i>
+                    <img src="./images/HTMLthumbnail.png" alt="">
+                    <h3>Complete HTML tutorial -Part 1</h3>
+                </a>
+            </div>
+            
+            <div class="box-container">
+                <a href="watch-video.html" class="box">
+                    <i class="fas fa-play"></i>
+                    <img src="./images/HTMLthumbnail.png" alt="">
+                    <h3>Complete HTML tutorial -Part 1</h3>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <!--video container section ends-->
 
 
 
