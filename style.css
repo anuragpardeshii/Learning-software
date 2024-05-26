@@ -614,7 +614,10 @@ section {
 }
 
 .playlist .row .col .thumb img{
-    background-color: var(--white); 
+    width: 100%;
+    height: 100%;
+    border-radius: .5rem;
+    object-fit: cover;
 }
 
 
@@ -653,7 +656,6 @@ section {
     color: var(--black);
     margin-bottom: .2rem;
 }
-
 .playlist .row .col .tutor span{
     color: var(--main-color);
     font-size: 1.5rem;
@@ -661,8 +663,6 @@ section {
 
 .playlist .row .col .details{
     padding: 1.5rem;
-
-    padding: 2rem;
 }
 
 .playlist .row .col .details h3{
@@ -688,7 +688,7 @@ section {
 }
 
 .playlist .row .col .details .date span{
-    color: var(--light-bg);
+    color: var(--light-color);
 }
 
 .videos-container .box-container{
@@ -741,7 +741,7 @@ section {
 .videos-container .box-container .box:hover h3{
     color: var(--main-color);
     font-size: 1.8rem;
-    transition: .2s linear;
+    transition: .3s linear;
 }
 .playlist .row .col .date span{
     color: var(--light-color);
