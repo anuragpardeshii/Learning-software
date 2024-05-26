@@ -1119,8 +1119,42 @@ section {
     font-size: 1.8rem;
 }
 
+.contact .box-container{
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+}
 
+.contact .box-container .box{
+    border-radius: .5rem;
+    background-color: var(--white);
+    flex: 1 1 30rem;
+    padding: 2rem;
+    text-align: center;
+}
 
+.contact .box-container .box i{
+    font-size: 3rem;
+    color: var(--main-color);
+    margin-bottom: 1rem;
+}
+
+.contact .box-container .box h3{
+    margin: 1rem 0;
+    font-size: 2rem;
+    color: var(--black);
+}
+
+.contact .box-container .box a{
+    display: block;
+    margin-top: 1rem;
+    font-size: 1.7rem;
+    color: var(--light-color);
+    line-height: 1.5;
+    margin-top: .5rem;
+}
 
 
 
